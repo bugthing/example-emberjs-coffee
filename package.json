@@ -1,6 +1,13 @@
 {
   "name": "example-emberjs-coffee",
   "version": "0.0.1",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/bugthing/example-emberjs-coffee.git"
+  },
+  "scripts": {
+    "test": "npm run grunt test"
+  },
   "devDependencies": {
     "coffeelint": "^1.6.0",
     "grunt": "^0.4.5",
