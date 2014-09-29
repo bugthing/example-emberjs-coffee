@@ -1,6 +1,6 @@
 {
-  "name": "top-process",
-  "version": "0.1.0",
+  "name": "example-emberjs-coffee",
+  "version": "0.0.1",
   "devDependencies": {
     "coffeelint": "^1.6.0",
     "grunt": "^0.4.5",
