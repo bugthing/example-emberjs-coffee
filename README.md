@@ -6,15 +6,14 @@ Skel to learn the structure and use of popular JS things.
 Grunt - CoffeeScript - EmberJS - QUnit
 --------------------------------------
 
-Install the bits:
+Install all the stuff
 
     npm install
 
-Run the thing:
+Start (build, test and watch for file changes)
 
     grunt
 
 Connection to:
 
     http://localhost:9001/
-

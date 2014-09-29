@@ -72,4 +72,6 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-coffeelint'
   grunt.loadNpmTasks 'grunt-contrib-qunit';
 
-  grunt.registerTask 'default', ['coffeelint','coffee', 'emberTemplates', 'processhtml', 'connect', 'watch']
+  grunt.registerTask 'default', ['build', 'test', 'watch']
+  grunt.registerTask 'test', ['coffeelint', 'build', 'connect', 'qunit']
+  grunt.registerTask 'build', ['coffee', 'emberTemplates', 'processhtml']
