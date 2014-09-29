@@ -17,3 +17,7 @@ Start (build, test and watch for file changes)
 Connection to:
 
     http://localhost:9001/
+
+
+
+[![Build Status](https://drone.io/github.com/bugthing/example-emberjs-coffee/status.png)](https://drone.io/github.com/bugthing/example-emberjs-coffee/latest)
