@@ -1,4 +1,4 @@
-App = Ember.Application.create {}
+App = Ember.Application.create { rootElement: '#main' }
 
 App.Router.map ->
   @route "index", { path: "/" }
